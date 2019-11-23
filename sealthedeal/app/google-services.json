@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "516783133618",
+    "firebase_url": "https://seal-the-deal-90f67.firebaseio.com",
+    "project_id": "seal-the-deal-90f67",
+    "storage_bucket": "seal-the-deal-90f67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516783133618:android:edcc0620b7f4d5c86ecaab",
+        "android_client_info": {
+          "package_name": "com.demo.utep.sealthedeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516783133618-8c5n5o5a0t0de95l352ejk24vcgq42ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdNNJIkUHFuO9NDfROmpmc3Lm1c15szfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516783133618-8c5n5o5a0t0de95l352ejk24vcgq42ki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
