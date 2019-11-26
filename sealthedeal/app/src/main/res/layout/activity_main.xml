@@ -8,12 +8,16 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="279dp"
+        android:layout_width="341dp"
         android:layout_height="385dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
         android:orientation="vertical"
+        android:weightSum="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.912">
@@ -22,39 +26,68 @@
             android:id="@+id/profileButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Profile" />
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="goToProfile"
+            android:text="@string/profile"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/resumeScanButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Resume Scan" />
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="goToResume"
+            android:text="@string/resume_scan"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/virtualSpaceButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Open Virtual Space" />
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="goToVirtual"
+            android:text="Open Virtual Space"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/resourcesButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Resources" />
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="goToResources"
+            android:text="@string/resources"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/reportsButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reports" />
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="goToReports"
+            android:text="@string/reports"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="30sp" />
     </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="436dp"
+        android:layout_width="339dp"
         android:layout_height="126dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/todo"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/backgrounds/scenic[17]" />
+        app:srcCompat="@drawable/icon" />
 </android.support.constraint.ConstraintLayout>
